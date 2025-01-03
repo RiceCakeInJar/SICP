@@ -1,0 +1,23 @@
+{
+    "name": "Variables & Functions, Control",
+    "endpoint": "lab01",
+    "src": [
+        "lab01.py"
+    ],
+    "tests": {
+        "tests/q1.py": "ok_test",
+        "tests/q2.py": "ok_test",
+        "tests/q3.py": "ok_test",
+        "lab01.py:both_odd": "doctest",
+        "lab01.py:factorial": "doctest",
+        "lab01.py:is_triangle": "doctest",
+        "lab01.py:number_of_nine": "doctest",
+        "lab01.py:min_digit": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

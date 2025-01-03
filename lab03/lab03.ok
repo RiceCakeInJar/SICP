@@ -1,0 +1,22 @@
+{
+    "name": "Recursion",
+    "endpoint": "lab03",
+    "src": [
+        "lab03.py"
+    ],
+    "tests": {
+        "lab03.py:skip_add": "doctest",
+        "lab03.py:summation": "doctest",
+        "lab03.py:count_stair_ways": "doctest",
+        "lab03.py:count_k": "doctest",
+        "lab03.py:paths": "doctest",
+        "lab03.py:max_subseq": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
